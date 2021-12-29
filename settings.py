@@ -1,0 +1,24 @@
+from PIL import ImageFont
+
+FONT_SIZE = 35
+FONT = ImageFont.truetype("Roboto-Regular.ttf", FONT_SIZE)
+
+BACKGROUND_COLOR = (0, 123, 123)
+PATH = 'bs.png'
+
+
+# height and width each block
+WIDTH = 600
+HEIGHT = 200
+
+# SPACE AROUND COLUMNS AND ROWS
+SPACE_WIDTH = 100
+SPACE_HEIGHT = 100
+
+#
+CONNECTION_COLOR = (0, 0, 0)
+CONNECTION_WIDTH = 3
+
+#
+#START_POSITION = [0.5 * SPACE_WIDTH, 0.5 * SPACE_HEIGHT]
+START_POSITION = [0.5 * SPACE_WIDTH, 0]
