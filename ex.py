@@ -13,6 +13,7 @@ def connections(img, _coor, _slist):
 
 def connection(img, _coor):
     coor = [_coor[0] + settings.WIDTH / 2, _coor[1] + settings.HEIGHT]
+
     if coor[1] >= img.im.size[1] - settings.SPACE_HEIGHT:
         img.line(
                 [
